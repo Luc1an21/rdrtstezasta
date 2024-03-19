@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["http://romaniadeaur.com/","http://romaniadeaur.com/"];
+const statusMessages = ["romaniadeaur.com","romaniadeaur.com"];
 
 
 let currentIndex = 0;
