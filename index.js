@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 });
 app.listen(port, () => {
   console.log(`🔗 Asculta: http://localhost:${port}`);
-  console.log(`🔗 RTX`);
+  console.log(` `);
 });
 
 
@@ -28,9 +28,9 @@ const channelId = '';
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
+    console.log(`\x1b[36m%s\x1b[0m`, `|    esti logat ca si ${client.user.tag}`);
   } catch (error) {
-    console.error('Failed to log in:', error);
+    console.error('eroare:', error);
     process.exit(1);
   }
 }
@@ -58,7 +58,7 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Este gata ${client.user.tag}`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ merge secundele ${client.user.tag}`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    Mere`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️`);
   updateStatusAndSendMessages();
