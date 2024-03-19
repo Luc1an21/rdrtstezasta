@@ -1,7 +1,7 @@
 {
-  "name": "👑 BOT GHOST STATUS REMOVER RTX \n",
-  "version": "Latest Version : ",
-  "description": "There will be more updates For this BOT",
+  "name": "test\n",
+  "version": "ultima versiune : ",
+  "description": "mai multe update uri",
   "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.9.0",
